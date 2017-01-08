@@ -3,7 +3,23 @@
     <%= link_to participate_path do %>
       <h2>PARTICIPA</h2>
     <% end %>
-    <%= image_tag 'girl.png' %>
+    <div class="row">
+      <div class="col-sm-6 girl-column">
+        <%= image_tag 'girl.png', class: "girl-image" %>
+      </div>
+      <div class="col-sm-6">
+        <p class="participate-text">
+          SUBE UNA <span class="highlight">SELFIE</span> CON TU<br />
+          <span class="highlight">KOTEX</span> FAVORITA<br />
+          Y UNA FRASE<br />
+          UTILIZANDO EL HASTHAG
+          <span class="highlight">#NOTEDETENGAS</span><br />
+          CONTANDO COMO<br />
+          NO TE DETIENE<br />
+          TU PRIMER DIA DE CLASES
+        </p>
+      </div>
+    </div>
   </div>
   <div class="col-sm-6 vote-column">
     <%= link_to vote_path do %>

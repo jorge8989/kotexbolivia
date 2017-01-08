@@ -6,31 +6,49 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
-  margin-bottom: 100px;
 }
 
 .participate-column {
   h2 {
+    text-align: center;
     font-size: 4em;
     font-weight: 600;
+    margin-top: 0px;
   }
   color: white;
-  background-color: pink;
-  height: 100%;
-  img {
-    height: 85%;
-    position: absolute;
+  background-color: #f34c87;
+  height: 90%;
+  border-right: dotted 3px white;
+  .row {
+    height: 100%;
+    .girl-column {
+      height: 95%;
+      position: relative;
+      .girl-image {
+        position: absolute;
+        height: 90%;
+      }
+    }
+    .participate-text {
+      font-size: 1.7em;
+      font-weight: 600;
+      .highlight {
+        color: #0fb8da;
+      }
+    }
   }
 }
 
 .vote-column {
   h2 {
+    margin-top: 0px;
+    text-align: center;
     font-size: 4em;
     font-weight: 600;
   }
   color: white;
-  background-color: lightblue;
-  height: 100%;
+  background-color: #0fb8da;
+  height: 90%;
 }
 .kotex-footer {
   position: fixed;
@@ -38,11 +56,12 @@ body {
   left: 0;
   color: white;
   background-color: grey;
-  min-height: 100px;
+  min-height: 10%;
   p {
-    font-size: 1.5em;
+    font-size: 3.5em;
     font-weight: 600;
-    margin-top: 15px;
+    margin-top: 10px;
+    margin-left: 15px;
   }
 }
 
@@ -52,7 +71,7 @@ body {
     font-weight: 600;
   }
   color: white;
-  background-color: pink;
+  background-color: #f34c87;
   height: 100%;
 }
 a, a:hover, a:visited {
